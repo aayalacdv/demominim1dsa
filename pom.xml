@@ -36,6 +36,36 @@
             <version>4.9</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.13.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.13.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-json-jackson</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-servlet</artifactId>
+            <version>1.19.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -46,14 +76,14 @@
                 <version>2.5.1</version>
                 <inherited>true</inherited>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
-                <version>1.2.1</version>
+            <version>1.2.1</version>
                 <executions>
                     <execution>
                         <goals>

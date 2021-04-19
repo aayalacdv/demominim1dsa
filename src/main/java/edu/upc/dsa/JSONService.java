@@ -1,6 +1,7 @@
 package edu.upc.dsa;
 
 import javax.ws.rs.*;
+import javax.ws.rs.core.GenericEntity;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.ArrayList;
@@ -35,14 +36,26 @@ public class JSONService {
     @GET
     @Path("/get")
     @Produces(MediaType.APPLICATION_JSON)
-    public Track getTrackInJSON() {
-
+    public  Response getTrackInJSON() {
+        List<Track> tracks = new ArrayList<>();
         Track track = new Track();
         track.setTitle("Enter Sandman");
         track.setSinger("Metallica");
+        tracks.add(track);
 
-        return track;
+        Track atrack = new Track();
+        atrack.setTitle("I Enter Sandman");
+        atrack.setSinger("I Metallica");
 
+        tracks.add(atrack);
+        List<Product> products = new ArrayList<>();
+        products.add(new Product("A", 5f));
+
+        GenericEntity<List<Product>> entity2 = new GenericEntity<List<Product>>(products){};
+        GenericEntity<List<Track>> entity = new GenericEntity<List<Track>>(this.tracks){};
+
+
+        return Response.status(201).entity(entity2).build();
     }
 
     @POST
