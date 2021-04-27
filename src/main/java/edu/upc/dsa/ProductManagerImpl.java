@@ -1,150 +1,194 @@
 package edu.upc.dsa;
 
-import org.apache.log4j.BasicConfigurator;
+import edu.upc.dsa.models.Order;
+import edu.upc.dsa.models.Product;
+import edu.upc.dsa.models.User;
 import org.apache.log4j.Logger;
+
 import java.util.*;
 
-
 public class ProductManagerImpl implements ProductManager {
+    //Estructuras de datos para poder hacer los pedidos y operaciones
+    private HashMap<String, User> users;
+    private HashMap<String, Product> products;
+    private List<Product> productList;
+    private Queue<List<Order>> pendinOrders;
 
-    private List<User> users;
-    private List<Product> products;
-    private HashMap<String, Integer> sales;
-    private Queue<Order> pendingOrder;
-
-    private static ProductManagerImpl productManager;
+    //hacemos el singleton y el logger
     final static Logger logger = Logger.getLogger(ProductManagerImpl.class);
-
+    private static ProductManagerImpl productManager;
 
     public static ProductManagerImpl getInstance(){
-       if(productManager == null ){
-           logger.warn("Se crea la instancia");
-           productManager = new ProductManagerImpl();
-
-       }
-       logger.info("PRODUCT MANAGER CREADO");
-       return productManager;
+        if(productManager == null ){
+            productManager = new ProductManagerImpl();
+        }
+        return productManager;
     }
 
-    public ProductManagerImpl() { this.users = new ArrayList<>(); this.products = new ArrayList<>(); this.sales = new HashMap<>(); this.pendingOrder = new LinkedList<>();
+    private ProductManagerImpl (){
+        this.users = new HashMap<>();
+        this.productList = new ArrayList<>();
+        this.products = new HashMap<>();
+        this.pendinOrders = new LinkedList<>();
     }
 
-    public List<User> getUsers() {
+    public HashMap<String, User> getUsers() {
         return users;
     }
 
-    public void setUsers(List<User> users) {
+    public void setUsers(HashMap<String, User> users) {
         this.users = users;
     }
 
-    public List<Product> getProducts() {
+    public HashMap<String, Product> getProducts() {
         return products;
     }
 
-    public void setProducts(List<Product> products) {
+    public void setProducts(HashMap<String, Product> products) {
         this.products = products;
     }
 
-    public HashMap<String, Integer> getSales() {
-        return sales;
+    public List<Product> getProductList() {
+        return productList;
     }
 
-    public void setSales(HashMap<String, Integer> sales) {
-        this.sales = sales;
+    public void setProductList(List<Product> productList) {
+        this.productList = productList;
     }
 
-    public Queue<Order> getPendingOrder() {
-        return pendingOrder;
+    public Queue<List<Order>> getPendinOrders() {
+        return pendinOrders;
     }
 
-    public void setPendingOrder(Queue<Order> pendingOrder) {
-        this.pendingOrder = pendingOrder;
-    }
-
-    public static void setProductManager(ProductManagerImpl productManager) {
-        ProductManagerImpl.productManager = productManager;
+    public void setPendinOrders(Queue<List<Order>> pendinOrders) {
+        this.pendinOrders = pendinOrders;
     }
 
     @Override
-    public void makeOrder(List<Order> orders, int id ) throws Exception {
-        boolean found = false;
-        logger.info("PROCESANDO PEDIDO DE USUARIO CON ID" + id);
-        //imprimimos el estado actual de la lista de colasç
-        logger.info("Cola actual");
-        for( Order o : pendingOrder){
-           logger.debug("PRODUCTO:" + o.getProduct().getName() + "CANTIDAD" + o.getQuantity());
+    public void makeOrder(List<Order> order) throws Exception {
+        User u = getUserbyId(order.get(0).getUserId()) ;
+        if (u == null ){
+            logger.info("USUARIO NO ENCONTRADO");
+            throw new Exception( "USUARIO NO ENCONTRADO ");
         }
-        for(User u : this.users ){
-            if (id == u.getId()){
-                logger.info("USUARI ENCONTRADO");
-                for (Order o : orders){
-                    pendingOrder.add(o);
-                    logger.info("PEDIDO AÑADIDO");
-                }
-                found = true;
-            }
+        else {
+            //hacer la orden
+            logger.info("PROCESANDO PEDIDO ");
+            logger.debug(this.pendinOrders);
+            this.pendinOrders.add(order);
+            logger.info("COLA MODIFICADA");
+            logger.debug(this.pendinOrders);
         }
-        logger.info("COLA MODIFICADA");
-        for( Order o : pendingOrder){
-            logger.debug("PRODUCTO: " + o.getProduct().getName() + " CANTIDAD: " + o.getQuantity());
-        }
-        if (!found){
-            logger.debug("USUARIO NO ENCONTRADO, ID " + id + "NO VALIDO");
-            throw new Exception("USUARIO NO ENCONTRADO");
-        }
+
 
     }
 
     @Override
     public void attendOrder() {
-        logger.info("ATENDIENDO PEDIDO");
+        logger.info("SE ESTÁ ATENDIENDO UNA ORDEN");
+        logger.debug(this.pendinOrders);
 
-        logger.debug("COLA ACTUAL");
-        for( Order o : pendingOrder){
-            logger.info("PRODUCTO: " + o.getProduct().getName() + " CANTIDAD: " + o.getQuantity());
+        User u = getUserbyId(this.pendinOrders.peek().get(0).getUserId());
+        List<Order> orders = this.pendinOrders.peek();
+
+
+
+        logger.info("LISTA DEL USUARIO " );
+        logger.debug(u.getCompletedOrder()) ;
+
+        for (Order o : orders ){
+            u.getCompletedOrder().add(o);
+            Product p = getProductbyId(o.getProductId());
+            p.setSales( p.getSales() + products.get(p.getId()).getSales());
+            this.products.put(p.getId(),p);
         }
-        Order order = this.pendingOrder.peek();
-        for(User user: this.users){
-            if(order.getId() == user.getId()){
-                logger.info("LISTA DE PEDIDOS DEL USUSARIO " + user.getName() );
-                for ( Order o : user.getCompletedOrders()){
-                   logger.debug("Producto: " + o.getProduct().getName() + " CANTIDAD" + o.getQuantity());
-                }
-                order.setCompleted();
-                user.getCompletedOrders().add(order);
-                logger.info("LISTA DE PEDIDOS DEL USUSARIO " + user.getName() + " MODIFICADA" );
-                for ( Order o : user.getCompletedOrders()) {
-                    logger.debug("Producto: " + o.getProduct().getName() + " CANTIDAD: " + o.getQuantity());
-                }
 
-                this.sales.put(order.getProduct().getName(), order.getQuantity() + this.sales.get(order.getProduct().getName()));
-                logger.info("LISTA DE VENTAS");
-                for(String n  : this.sales.keySet()){
-                    logger.debug(n + " " + this.sales.get(n));
-                }
+        users.put(u.getId(), u);
 
-            }
-        }
-        this.pendingOrder.poll();
+        logger.info("LISTA DEL USUARIO MODIFICADA" );
+        logger.debug(u.getCompletedOrder()) ;
 
-        logger.info("COLA MODIFICADA");
-        for( Order o : pendingOrder){
-            logger.debug("PRODUCTO: " + o.getProduct().getName() + " CANTIDAD: " + o.getQuantity());
-        }
+        this.pendinOrders.poll();
+
+        logger.info("COLA DE PEDIDOS MODIFICADA " );
+        logger.debug(this.pendinOrders);
     }
 
     @Override
-
-    public List<Product> getProductsSorted() {
-        this.products.sort((Product a, Product b ) -> Float.compare(a.getCost(),b.getCost()));
-        return this.products;
+    public List<Product> getProductsSortedbyPrice() {
+        this.productList.sort((Product a, Product b) -> Float.compare(a.getPrice(), b.getPrice()));
+        return this.productList;
     }
 
     @Override
-    public List<Product> getProductsSortedSales() {
-        List<Product> productsSortedBySales = this.products;
-        productsSortedBySales.sort((Product a, Product b ) -> Integer.compare(this.sales.get(a.getName()),this.sales.get(b.getName())));
-        Collections.reverse(productsSortedBySales);
-        return productsSortedBySales;
+    public List<Product> getProductsSortedbySales() {
+       this.productList.sort((Product a, Product b) -> Integer.compare(a.getSales(), b.getSales()));
+       Collections.reverse(this.productList);
+       return this.productList;
+    }
+
+    @Override
+    public List<Order> getUserCompletedOrders(String id) {
+        return this.users.get(id).getCompletedOrder();
+    }
+
+    @Override
+    public Product getProductbyId(String id) {
+        return this.products.get(id);
+    }
+
+    @Override
+    public User getUserbyId(String id) {
+        return this.users.get(id);
+    }
+
+    @Override
+    public void setUpResources() {
+        User user1 = new User("Axel");
+        User user2 = new User("Alex");
+
+        HashMap<String, User> users = new HashMap<>();
+        users.put(user1.getId(),user1);
+        users.put(user2.getId(), user2);
+        productManager.setUsers(users);
+
+        Product p1 = new Product("cafe", 1.5f);
+        Product p2 = new Product("pizza", 2.5f);
+
+        HashMap<String, Product>products = new HashMap<>();
+        products.put(p1.getId(), p1);
+        products.put(p2.getId(),p2);
+
+        productManager.setProducts(products);
+        List<Product> productList = new ArrayList<>();
+        productList.add(p1);
+        productList.add(p2);
+
+        productManager.setProductList(productList);
+
+        Order o1 = new Order( user1.getId(),p1.getId(),2);
+        Order o2 = new Order(user1.getId(), p2.getId(), 3);
+
+        Order o3 = new Order(user2.getId(),p2.getId(),1);
+
+        List<Order> olist1 = new ArrayList<>();
+        olist1.add(o1);
+        olist1.add(o2);
+
+        List<Order> olist2 = new ArrayList<>();
+        olist2.add(o3);
+        Queue<List<Order>> pendinOrders = new LinkedList<>();
+        pendinOrders.add(olist2);
+        pendinOrders.add(olist1);
+        productManager.setPendinOrders(pendinOrders);
+
+    }
+
+    @Override
+    public void tearDownResources() {
+        setProductList(new ArrayList<Product>());
+        setProducts(new HashMap<String,Product>());
+        setPendinOrders(new LinkedList<List<Order>>());
+        setUsers(new HashMap<String,User>());
     }
 }

@@ -5,21 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fd2825d-9233-4fa3-a1ed-7b0dfd96dbf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_1_2_api_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_moznion_random_string_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/services/ShoppingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/utils/RandomUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upc/dsa/ProductManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-example2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-example2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/JSONService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/ShoppingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/ProductManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/ProductManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/ProductManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/TextService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/JSONService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/JSONService$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/JSONService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/TextService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/upc/dsa/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependencies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/ShoppingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/Track.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/upc/dsa/JSONServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/upc/dsa/TextServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/upc/dsa/ProductManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/ProductManagerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/upc/dsa/ProductManagerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/ShoppingService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/ShoppingService$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/ShoppingService$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/ShoppingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/Track.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/upc/dsa/JSONServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/upc/dsa/TextServiceTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +87,24 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\axela\Desktop\Andrea\P4\demominim1dsaadsfsdf\src\main\java\edu\upc\dsa" />
       <recent name="C:\Users\axela\Desktop\profe\rest-example\src\main\java\edu\upc\dsa" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.upc.dsa" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ProductManagerTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.upc.dsa.Main" />
       <module name="rest-example2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.upc.dsa.*" />
+          <option name="PATTERN" value="edu.upc.dsa.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,8 +112,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-example2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.upc.dsa.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.upc.dsa" />
+      <option name="MAIN_CLASS_NAME" value="edu.upc.dsa.ProductManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductManagerTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
