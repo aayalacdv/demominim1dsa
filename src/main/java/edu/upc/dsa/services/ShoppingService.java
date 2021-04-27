@@ -4,6 +4,8 @@ import edu.upc.dsa.models.Order;
 import edu.upc.dsa.models.Product;
 import edu.upc.dsa.ProductManagerImpl;
 import edu.upc.dsa.models.User;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.GenericEntity;
@@ -13,6 +15,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+@Api(value = "/store", description = "ENDPOINT TO STORE SERVICE")
 @Path("/store")
 public class ShoppingService {
 

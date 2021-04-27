@@ -1,9 +1,18 @@
-INFO    2021-04-27 12:27:37,804 [main] edu.upc.dsa.ProductManagerImpl  - USUARIO NO ENCONTRADO
-INFO    2021-04-27 12:27:37,811 [main] edu.upc.dsa.ProductManagerImpl  - SE ESTÁ ATENDIENDO UNA ORDEN
-DEBUG   2021-04-27 12:27:37,811 [main] edu.upc.dsa.ProductManagerImpl  - [[{ userId='aF7Oeua1896147', productId='kE4AXO_4695639', quantity='1'}], [{ userId='gaZ354897330008', productId='oR0iNMH717704776', quantity='2'}, { userId='gaZ354897330008', productId='kE4AXO_4695639', quantity='3'}]]
-INFO    2021-04-27 12:27:37,811 [main] edu.upc.dsa.ProductManagerImpl  - LISTA DEL USUARIO 
-DEBUG   2021-04-27 12:27:37,811 [main] edu.upc.dsa.ProductManagerImpl  - []
-INFO    2021-04-27 12:27:37,811 [main] edu.upc.dsa.ProductManagerImpl  - LISTA DEL USUARIO MODIFICADA
-DEBUG   2021-04-27 12:27:37,811 [main] edu.upc.dsa.ProductManagerImpl  - [{ userId='aF7Oeua1896147', productId='kE4AXO_4695639', quantity='1'}]
-INFO    2021-04-27 12:27:37,811 [main] edu.upc.dsa.ProductManagerImpl  - COLA DE PEDIDOS MODIFICADA 
-DEBUG   2021-04-27 12:27:37,811 [main] edu.upc.dsa.ProductManagerImpl  - [[{ userId='gaZ354897330008', productId='oR0iNMH717704776', quantity='2'}, { userId='gaZ354897330008', productId='kE4AXO_4695639', quantity='3'}]]
+INFO    2021-04-27 21:49:07,914 [main] edu.upc.dsa.ProductManagerImpl  - USUARIO NO ENCONTRADO
+INFO    2021-04-27 21:49:07,922 [main] edu.upc.dsa.ProductManagerImpl  - SE ESTÁ ATENDIENDO UNA ORDEN
+DEBUG   2021-04-27 21:49:07,922 [main] edu.upc.dsa.ProductManagerImpl  - [[{ userId='s13561162', productId='T6033', quantity='1'}], [{ userId='tTq93069539980161777', productId='0LP7sU10550411984', quantity='2'}, { userId='tTq93069539980161777', productId='T6033', quantity='3'}]]
+INFO    2021-04-27 21:49:07,922 [main] edu.upc.dsa.ProductManagerImpl  - LISTA DEL USUARIO 
+DEBUG   2021-04-27 21:49:07,922 [main] edu.upc.dsa.ProductManagerImpl  - []
+INFO    2021-04-27 21:49:07,922 [main] edu.upc.dsa.ProductManagerImpl  - LISTA DEL USUARIO MODIFICADA
+DEBUG   2021-04-27 21:49:07,922 [main] edu.upc.dsa.ProductManagerImpl  - [{ userId='s13561162', productId='T6033', quantity='1'}]
+INFO    2021-04-27 21:49:07,922 [main] edu.upc.dsa.ProductManagerImpl  - COLA DE PEDIDOS MODIFICADA 
+DEBUG   2021-04-27 21:49:07,922 [main] edu.upc.dsa.ProductManagerImpl  - [[{ userId='tTq93069539980161777', productId='0LP7sU10550411984', quantity='2'}, { userId='tTq93069539980161777', productId='T6033', quantity='3'}]]
+INFO    2021-04-27 21:49:12,487 [main] edu.upc.dsa.ProductManagerImpl  - USUARIO NO ENCONTRADO
+INFO    2021-04-27 21:49:12,497 [main] edu.upc.dsa.ProductManagerImpl  - SE ESTÁ ATENDIENDO UNA ORDEN
+DEBUG   2021-04-27 21:49:12,497 [main] edu.upc.dsa.ProductManagerImpl  - [[{ userId='X572518', productId='l1113', quantity='1'}], [{ userId='WnFHl4690', productId='qc1qhdy5023048452590', quantity='2'}, { userId='WnFHl4690', productId='l1113', quantity='3'}]]
+INFO    2021-04-27 21:49:12,498 [main] edu.upc.dsa.ProductManagerImpl  - LISTA DEL USUARIO 
+DEBUG   2021-04-27 21:49:12,498 [main] edu.upc.dsa.ProductManagerImpl  - []
+INFO    2021-04-27 21:49:12,498 [main] edu.upc.dsa.ProductManagerImpl  - LISTA DEL USUARIO MODIFICADA
+DEBUG   2021-04-27 21:49:12,498 [main] edu.upc.dsa.ProductManagerImpl  - [{ userId='X572518', productId='l1113', quantity='1'}]
+INFO    2021-04-27 21:49:12,498 [main] edu.upc.dsa.ProductManagerImpl  - COLA DE PEDIDOS MODIFICADA 
+DEBUG   2021-04-27 21:49:12,498 [main] edu.upc.dsa.ProductManagerImpl  - [[{ userId='WnFHl4690', productId='qc1qhdy5023048452590', quantity='2'}, { userId='WnFHl4690', productId='l1113', quantity='3'}]]
