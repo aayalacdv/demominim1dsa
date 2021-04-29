@@ -1,2 +1,3 @@
-package edu.upc.dsa.models;public class Level {
-}
+package edu.upc.dsa.models;
+
+public enum Level {A, B, C, D}

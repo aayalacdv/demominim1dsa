@@ -1,0 +1,180 @@
+INFO    2021-04-28 22:09:31,498 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:09:31,499 [main] edu.upc.dsa.Covid19ManagerImpl  - {JD7198133637752=nombre: edu id: JD7198133637752 estado de salud: D edad:20, q46248712663=nombre: axel id: q46248712663 estado de salud: A edad:19}
+INFO    2021-04-28 22:09:31,500 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:09:31,500 [main] edu.upc.dsa.Covid19ManagerImpl  - {JD7198133637752=nombre: edu id: JD7198133637752 estado de salud: D edad:20, q46248712663=nombre: axel id: q46248712663 estado de salud: A edad:19, tBfe428973=nombre: Bruno id: tBfe428973 estado de salud: A edad:12}
+INFO    2021-04-28 22:09:31,511 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:09:31,511 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null, Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:09:31,512 [main] edu.upc.dsa.Covid19ManagerImpl  - {JD7198133637752=nombre: edu id: JD7198133637752 estado de salud: D edad:20, q46248712663=nombre: axel id: q46248712663 estado de salud: A edad:19, tBfe428973=nombre: Bruno id: tBfe428973 estado de salud: A edad:12}
+DEBUG   2021-04-28 22:09:31,512 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: null comentario: null}
+INFO    2021-04-28 22:09:31,512 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:09:31,512 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:09:31,512 [main] edu.upc.dsa.Covid19ManagerImpl  - {JD7198133637752=nombre: edu id: JD7198133637752 estado de salud: D edad:20, q46248712663=nombre: axel id: q46248712663 estado de salud: A edad:19, tBfe428973=nombre: Bruno id: tBfe428973 estado de salud: A edad:12}
+DEBUG   2021-04-28 22:09:31,512 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: POSITIVO comentario: Beber mucho líquido}
+INFO    2021-04-28 22:14:46,400 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:14:46,401 [main] edu.upc.dsa.Covid19ManagerImpl  - {q60830962120=nombre: edu id: q60830962120 estado de salud: D edad:20, DuVh0ePb81787719821077=nombre: axel id: DuVh0ePb81787719821077 estado de salud: A edad:19}
+INFO    2021-04-28 22:14:46,402 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:14:46,402 [main] edu.upc.dsa.Covid19ManagerImpl  - {q60830962120=nombre: edu id: q60830962120 estado de salud: D edad:20, OoHGVWnv2910840213823319=nombre: Bruno id: OoHGVWnv2910840213823319 estado de salud: A edad:12, DuVh0ePb81787719821077=nombre: axel id: DuVh0ePb81787719821077 estado de salud: A edad:19}
+INFO    2021-04-28 22:14:46,414 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:14:46,414 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null, Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:14:46,414 [main] edu.upc.dsa.Covid19ManagerImpl  - {q60830962120=nombre: edu id: q60830962120 estado de salud: D edad:20, OoHGVWnv2910840213823319=nombre: Bruno id: OoHGVWnv2910840213823319 estado de salud: A edad:12, DuVh0ePb81787719821077=nombre: axel id: DuVh0ePb81787719821077 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:14:46,414 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: null comentario: null}
+INFO    2021-04-28 22:14:46,414 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:14:46,414 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:14:46,414 [main] edu.upc.dsa.Covid19ManagerImpl  - {q60830962120=nombre: edu id: q60830962120 estado de salud: D edad:20, OoHGVWnv2910840213823319=nombre: Bruno id: OoHGVWnv2910840213823319 estado de salud: A edad:12, DuVh0ePb81787719821077=nombre: axel id: DuVh0ePb81787719821077 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:14:46,414 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: POSITIVO comentario: Beber mucho líquido}
+INFO    2021-04-28 22:15:07,902 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:15:07,903 [main] edu.upc.dsa.Covid19ManagerImpl  - {ltgAkg51415=nombre: edu id: ltgAkg51415 estado de salud: D edad:20, umRkY648633=nombre: axel id: umRkY648633 estado de salud: A edad:19}
+INFO    2021-04-28 22:15:07,903 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:15:07,904 [main] edu.upc.dsa.Covid19ManagerImpl  - {ltgAkg51415=nombre: edu id: ltgAkg51415 estado de salud: D edad:20, DUNgfAW9031075065=nombre: Bruno id: DUNgfAW9031075065 estado de salud: A edad:12, umRkY648633=nombre: axel id: umRkY648633 estado de salud: A edad:19}
+INFO    2021-04-28 22:15:07,913 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:15:07,913 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null, Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:15:07,913 [main] edu.upc.dsa.Covid19ManagerImpl  - {ltgAkg51415=nombre: edu id: ltgAkg51415 estado de salud: D edad:20, DUNgfAW9031075065=nombre: Bruno id: DUNgfAW9031075065 estado de salud: A edad:12, umRkY648633=nombre: axel id: umRkY648633 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:15:07,913 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: null comentario: null}
+INFO    2021-04-28 22:15:07,913 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:15:07,913 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:15:07,913 [main] edu.upc.dsa.Covid19ManagerImpl  - {ltgAkg51415=nombre: edu id: ltgAkg51415 estado de salud: D edad:20, DUNgfAW9031075065=nombre: Bruno id: DUNgfAW9031075065 estado de salud: A edad:12, umRkY648633=nombre: axel id: umRkY648633 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:15:07,913 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: POSITIVO comentario: Beber mucho líquido}
+INFO    2021-04-28 22:16:05,748 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:16:05,749 [main] edu.upc.dsa.Covid19ManagerImpl  - {gxDIU03451848=nombre: edu id: gxDIU03451848 estado de salud: D edad:20, Bqw01J_PN649=nombre: axel id: Bqw01J_PN649 estado de salud: A edad:19}
+INFO    2021-04-28 22:16:05,749 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:16:05,749 [main] edu.upc.dsa.Covid19ManagerImpl  - {gxDIU03451848=nombre: edu id: gxDIU03451848 estado de salud: D edad:20, Bqw01J_PN649=nombre: axel id: Bqw01J_PN649 estado de salud: A edad:19, sRi536642657=nombre: Bruno id: sRi536642657 estado de salud: A edad:12}
+INFO    2021-04-28 22:16:05,760 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:16:05,760 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null, Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:16:05,760 [main] edu.upc.dsa.Covid19ManagerImpl  - {6tY9NdZ49868620567303=nombre: edu id: 6tY9NdZ49868620567303 estado de salud: D edad:20, DQ22=nombre: axel id: DQ22 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:16:05,761 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: null comentario: null}
+INFO    2021-04-28 22:16:05,761 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:16:05,761 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:16:05,761 [main] edu.upc.dsa.Covid19ManagerImpl  - {6tY9NdZ49868620567303=nombre: edu id: 6tY9NdZ49868620567303 estado de salud: D edad:20, DQ22=nombre: axel id: DQ22 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:16:05,761 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: POSITIVO comentario: Beber mucho líquido}
+INFO    2021-04-28 22:16:25,046 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:16:25,047 [main] edu.upc.dsa.Covid19ManagerImpl  - {RrMV3YQQf098339=nombre: axel id: RrMV3YQQf098339 estado de salud: A edad:19, qa155594623=nombre: edu id: qa155594623 estado de salud: D edad:20}
+INFO    2021-04-28 22:16:25,048 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:16:25,048 [main] edu.upc.dsa.Covid19ManagerImpl  - {RrMV3YQQf098339=nombre: axel id: RrMV3YQQf098339 estado de salud: A edad:19, TqKEwHWOlo595506620259=nombre: Bruno id: TqKEwHWOlo595506620259 estado de salud: A edad:12, qa155594623=nombre: edu id: qa155594623 estado de salud: D edad:20}
+INFO    2021-04-28 22:16:25,061 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:16:25,061 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null, Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:16:25,061 [main] edu.upc.dsa.Covid19ManagerImpl  - {HWc3u8s_TQ18360208291=nombre: axel id: HWc3u8s_TQ18360208291 estado de salud: A edad:19, 9Y66tqooej465308712932268=nombre: edu id: 9Y66tqooej465308712932268 estado de salud: D edad:20}
+DEBUG   2021-04-28 22:16:25,061 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: null comentario: null}
+INFO    2021-04-28 22:16:25,061 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:16:25,061 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:16:25,061 [main] edu.upc.dsa.Covid19ManagerImpl  - {HWc3u8s_TQ18360208291=nombre: axel id: HWc3u8s_TQ18360208291 estado de salud: A edad:19, 9Y66tqooej465308712932268=nombre: edu id: 9Y66tqooej465308712932268 estado de salud: D edad:20}
+DEBUG   2021-04-28 22:16:25,061 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: POSITIVO comentario: Beber mucho líquido}
+INFO    2021-04-28 22:16:55,489 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:16:55,490 [main] edu.upc.dsa.Covid19ManagerImpl  - {Ozug93470744973=nombre: edu id: Ozug93470744973 estado de salud: D edad:20, WYVo784172566=nombre: axel id: WYVo784172566 estado de salud: A edad:19}
+INFO    2021-04-28 22:16:55,491 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:16:55,491 [main] edu.upc.dsa.Covid19ManagerImpl  - {X1y45725180105=nombre: Bruno id: X1y45725180105 estado de salud: A edad:12, Ozug93470744973=nombre: edu id: Ozug93470744973 estado de salud: D edad:20, WYVo784172566=nombre: axel id: WYVo784172566 estado de salud: A edad:19}
+INFO    2021-04-28 22:16:55,508 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:16:55,508 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null, Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:16:55,508 [main] edu.upc.dsa.Covid19ManagerImpl  - {Sa7I565706=nombre: edu id: Sa7I565706 estado de salud: D edad:20, krdZ710940=nombre: axel id: krdZ710940 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:16:55,508 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: null comentario: null}
+INFO    2021-04-28 22:16:55,508 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:16:55,508 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:16:55,508 [main] edu.upc.dsa.Covid19ManagerImpl  - {Sa7I565706=nombre: edu id: Sa7I565706 estado de salud: D edad:20, krdZ710940=nombre: axel id: krdZ710940 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:16:55,508 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: POSITIVO comentario: Beber mucho líquido}
+INFO    2021-04-28 22:18:23,573 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:18:23,574 [main] edu.upc.dsa.Covid19ManagerImpl  - {1ZsWHx756512940=nombre: edu id: 1ZsWHx756512940 estado de salud: D edad:20, aMSXnB8MfR8259796=nombre: axel id: aMSXnB8MfR8259796 estado de salud: A edad:19}
+INFO    2021-04-28 22:18:23,575 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:18:23,575 [main] edu.upc.dsa.Covid19ManagerImpl  - {1ZsWHx756512940=nombre: edu id: 1ZsWHx756512940 estado de salud: D edad:20, aMSXnB8MfR8259796=nombre: axel id: aMSXnB8MfR8259796 estado de salud: A edad:19, wECgr892Uk4922805563253=nombre: Bruno id: wECgr892Uk4922805563253 estado de salud: A edad:12}
+INFO    2021-04-28 22:18:23,586 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:18:23,586 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null, Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:18:23,586 [main] edu.upc.dsa.Covid19ManagerImpl  - {LYpI2643283051317225699=nombre: axel id: LYpI2643283051317225699 estado de salud: A edad:19, lvfd8h1413317129360=nombre: edu id: lvfd8h1413317129360 estado de salud: D edad:20}
+DEBUG   2021-04-28 22:18:23,587 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: null comentario: null}
+INFO    2021-04-28 22:18:23,587 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:18:23,587 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:18:23,587 [main] edu.upc.dsa.Covid19ManagerImpl  - {LYpI2643283051317225699=nombre: axel id: LYpI2643283051317225699 estado de salud: A edad:19, lvfd8h1413317129360=nombre: edu id: lvfd8h1413317129360 estado de salud: D edad:20}
+DEBUG   2021-04-28 22:18:23,587 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: POSITIVO comentario: Beber mucho líquido}
+INFO    2021-04-28 22:19:08,761 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:19:08,762 [main] edu.upc.dsa.Covid19ManagerImpl  - {CYcaAVTb048136336439929=nombre: axel id: CYcaAVTb048136336439929 estado de salud: A edad:19, cO45219488676=nombre: edu id: cO45219488676 estado de salud: D edad:20}
+INFO    2021-04-28 22:19:08,763 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:19:08,763 [main] edu.upc.dsa.Covid19ManagerImpl  - {CYcaAVTb048136336439929=nombre: axel id: CYcaAVTb048136336439929 estado de salud: A edad:19, cO45219488676=nombre: edu id: cO45219488676 estado de salud: D edad:20, rpRA4xpJ991961=nombre: Bruno id: rpRA4xpJ991961 estado de salud: A edad:12}
+INFO    2021-04-28 22:19:08,775 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:19:08,775 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null, Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:19:08,776 [main] edu.upc.dsa.Covid19ManagerImpl  - {xbLLD3867503020=nombre: edu id: xbLLD3867503020 estado de salud: D edad:20, SRzUN648928038=nombre: axel id: SRzUN648928038 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:19:08,776 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: null comentario: null}
+INFO    2021-04-28 22:19:08,776 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:19:08,776 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:19:08,776 [main] edu.upc.dsa.Covid19ManagerImpl  - {xbLLD3867503020=nombre: edu id: xbLLD3867503020 estado de salud: D edad:20, SRzUN648928038=nombre: axel id: SRzUN648928038 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:19:08,776 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: POSITIVO comentario: Beber mucho líquido}
+INFO    2021-04-28 22:20:13,501 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:20:13,502 [main] edu.upc.dsa.Covid19ManagerImpl  - {SO6lUs6967382=nombre: axel id: SO6lUs6967382 estado de salud: A edad:19, q06K9547596322739=nombre: edu id: q06K9547596322739 estado de salud: D edad:20}
+INFO    2021-04-28 22:20:13,503 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:20:13,503 [main] edu.upc.dsa.Covid19ManagerImpl  - {SO6lUs6967382=nombre: axel id: SO6lUs6967382 estado de salud: A edad:19, _VNFGaDEAl283415=nombre: Bruno id: _VNFGaDEAl283415 estado de salud: A edad:12, q06K9547596322739=nombre: edu id: q06K9547596322739 estado de salud: D edad:20}
+INFO    2021-04-28 22:20:13,513 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:20:13,513 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null, Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:20:13,514 [main] edu.upc.dsa.Covid19ManagerImpl  - {CXtWG51168526703358=nombre: edu id: CXtWG51168526703358 estado de salud: D edad:20, 2nRdOJN26696808=nombre: axel id: 2nRdOJN26696808 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:20:13,514 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: null comentario: null}
+INFO    2021-04-28 22:20:13,514 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:20:13,514 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:20:13,514 [main] edu.upc.dsa.Covid19ManagerImpl  - {CXtWG51168526703358=nombre: edu id: CXtWG51168526703358 estado de salud: D edad:20, 2nRdOJN26696808=nombre: axel id: 2nRdOJN26696808 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:20:13,514 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: POSITIVO comentario: Beber mucho líquido}
+INFO    2021-04-28 22:20:39,742 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:20:39,743 [main] edu.upc.dsa.Covid19ManagerImpl  - {Dky5YJ9o7815171=nombre: axel id: Dky5YJ9o7815171 estado de salud: A edad:19, oZ15362=nombre: edu id: oZ15362 estado de salud: D edad:20}
+INFO    2021-04-28 22:20:39,744 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:20:39,744 [main] edu.upc.dsa.Covid19ManagerImpl  - {Dky5YJ9o7815171=nombre: axel id: Dky5YJ9o7815171 estado de salud: A edad:19, oZ15362=nombre: edu id: oZ15362 estado de salud: D edad:20, R1I_M9X283551539=nombre: Bruno id: R1I_M9X283551539 estado de salud: A edad:12}
+INFO    2021-04-28 22:20:39,757 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:20:39,757 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null, Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:20:39,757 [main] edu.upc.dsa.Covid19ManagerImpl  - {zVpXhgF47771376231=nombre: axel id: zVpXhgF47771376231 estado de salud: A edad:19, n3vBg2z416493509=nombre: edu id: n3vBg2z416493509 estado de salud: D edad:20}
+DEBUG   2021-04-28 22:20:39,757 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: null comentario: null}
+INFO    2021-04-28 22:20:39,757 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:20:39,757 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:20:39,757 [main] edu.upc.dsa.Covid19ManagerImpl  - {zVpXhgF47771376231=nombre: axel id: zVpXhgF47771376231 estado de salud: A edad:19, n3vBg2z416493509=nombre: edu id: n3vBg2z416493509 estado de salud: D edad:20}
+DEBUG   2021-04-28 22:20:39,757 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: POSITIVO comentario: Beber mucho líquido}
+INFO    2021-04-28 22:22:30,403 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:22:30,404 [main] edu.upc.dsa.Covid19ManagerImpl  - {O963882863290=nombre: axel id: O963882863290 estado de salud: A edad:19, AvGS6321135=nombre: edu id: AvGS6321135 estado de salud: D edad:20}
+INFO    2021-04-28 22:22:30,405 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:22:30,405 [main] edu.upc.dsa.Covid19ManagerImpl  - {O963882863290=nombre: axel id: O963882863290 estado de salud: A edad:19, AvGS6321135=nombre: edu id: AvGS6321135 estado de salud: D edad:20, VV8seYQA218642853337=nombre: Bruno id: VV8seYQA218642853337 estado de salud: A edad:12}
+INFO    2021-04-28 22:22:30,416 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:22:30,416 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null, Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:22:30,417 [main] edu.upc.dsa.Covid19ManagerImpl  - {lDBMbeGp814249=nombre: axel id: lDBMbeGp814249 estado de salud: A edad:19, quVFwDnm1915321322781=nombre: edu id: quVFwDnm1915321322781 estado de salud: D edad:20}
+DEBUG   2021-04-28 22:22:30,417 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: null comentario: null}
+INFO    2021-04-28 22:22:30,417 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:22:30,417 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:22:30,417 [main] edu.upc.dsa.Covid19ManagerImpl  - {lDBMbeGp814249=nombre: axel id: lDBMbeGp814249 estado de salud: A edad:19, quVFwDnm1915321322781=nombre: edu id: quVFwDnm1915321322781 estado de salud: D edad:20}
+DEBUG   2021-04-28 22:22:30,417 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: POSITIVO comentario: Beber mucho líquido}
+INFO    2021-04-28 22:24:31,788 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:24:31,789 [main] edu.upc.dsa.Covid19ManagerImpl  - {3Y9Dmna74550355437=nombre: axel id: 3Y9Dmna74550355437 estado de salud: A edad:19, YJ33387740356=nombre: edu id: YJ33387740356 estado de salud: D edad:20}
+INFO    2021-04-28 22:24:31,789 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:24:31,789 [main] edu.upc.dsa.Covid19ManagerImpl  - {3Y9Dmna74550355437=nombre: axel id: 3Y9Dmna74550355437 estado de salud: A edad:19, YJ33387740356=nombre: edu id: YJ33387740356 estado de salud: D edad:20, RxVG776262202582811=nombre: Bruno id: RxVG776262202582811 estado de salud: A edad:12}
+INFO    2021-04-28 22:24:31,802 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:24:31,802 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null, Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:24:31,802 [main] edu.upc.dsa.Covid19ManagerImpl  - {k3559697916560=nombre: edu id: k3559697916560 estado de salud: D edad:20, a1076691290536621=nombre: axel id: a1076691290536621 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:24:31,802 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: null comentario: null}
+INFO    2021-04-28 22:24:31,802 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:24:31,802 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestranull resultado: null comentario: null]
+DEBUG   2021-04-28 22:24:31,802 [main] edu.upc.dsa.Covid19ManagerImpl  - {k3559697916560=nombre: edu id: k3559697916560 estado de salud: D edad:20, a1076691290536621=nombre: axel id: a1076691290536621 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:24:31,802 [main] edu.upc.dsa.Covid19ManagerImpl  - {null=Id_muestranull resultado: POSITIVO comentario: Beber mucho líquido}
+INFO    2021-04-28 22:26:08,411 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:26:08,411 [main] edu.upc.dsa.Covid19ManagerImpl  - {yKD3Q1zz520264=nombre: axel id: yKD3Q1zz520264 estado de salud: A edad:19, 8s8VB2u2084668243890=nombre: edu id: 8s8VB2u2084668243890 estado de salud: D edad:20}
+INFO    2021-04-28 22:26:08,412 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:26:08,412 [main] edu.upc.dsa.Covid19ManagerImpl  - {yKD3Q1zz520264=nombre: axel id: yKD3Q1zz520264 estado de salud: A edad:19, CsMuwy679=nombre: Bruno id: CsMuwy679 estado de salud: A edad:12, 8s8VB2u2084668243890=nombre: edu id: 8s8VB2u2084668243890 estado de salud: D edad:20}
+INFO    2021-04-28 22:26:08,424 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:26:08,424 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestraLe3h939w844040 resultado: null comentario: null, Id_muestrarK5Shm019732678715 resultado: null comentario: null]
+DEBUG   2021-04-28 22:26:08,424 [main] edu.upc.dsa.Covid19ManagerImpl  - {RnHtbC198952=nombre: axel id: RnHtbC198952 estado de salud: A edad:19, K18254213=nombre: edu id: K18254213 estado de salud: D edad:20}
+DEBUG   2021-04-28 22:26:08,424 [main] edu.upc.dsa.Covid19ManagerImpl  - {Le3h939w844040=Id_muestraLe3h939w844040 resultado: null comentario: null, rK5Shm019732678715=Id_muestrarK5Shm019732678715 resultado: null comentario: null}
+INFO    2021-04-28 22:26:08,424 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:26:08,424 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestrarK5Shm019732678715 resultado: null comentario: null]
+DEBUG   2021-04-28 22:26:08,424 [main] edu.upc.dsa.Covid19ManagerImpl  - {RnHtbC198952=nombre: axel id: RnHtbC198952 estado de salud: A edad:19, K18254213=nombre: edu id: K18254213 estado de salud: D edad:20}
+DEBUG   2021-04-28 22:26:08,424 [main] edu.upc.dsa.Covid19ManagerImpl  - {Le3h939w844040=Id_muestraLe3h939w844040 resultado: POSITIVO comentario: Beber mucho líquido, rK5Shm019732678715=Id_muestrarK5Shm019732678715 resultado: null comentario: null}
+INFO    2021-04-28 22:37:13,173 [main] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:37:13,173 [main] edu.upc.dsa.Covid19ManagerImpl  - {H4uj1wznz258314069056422=nombre: edu id: H4uj1wznz258314069056422 estado de salud: D edad:20, wBkpYTNQG49369=nombre: axel id: wBkpYTNQG49369 estado de salud: A edad:19}
+INFO    2021-04-28 22:37:13,174 [main] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:37:13,174 [main] edu.upc.dsa.Covid19ManagerImpl  - {H4uj1wznz258314069056422=nombre: edu id: H4uj1wznz258314069056422 estado de salud: D edad:20, 9p5h5H72085634250873151=nombre: Bruno id: 9p5h5H72085634250873151 estado de salud: A edad:12, wBkpYTNQG49369=nombre: axel id: wBkpYTNQG49369 estado de salud: A edad:19}
+INFO    2021-04-28 22:37:13,186 [main] edu.upc.dsa.Covid19ManagerImpl  - procesando muestras 
+DEBUG   2021-04-28 22:37:13,186 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestraLW2CU resultado: null comentario: null, Id_muestraM5WJlIA895767040521 resultado: null comentario: null]
+DEBUG   2021-04-28 22:37:13,187 [main] edu.upc.dsa.Covid19ManagerImpl  - {5sr90165639433959=nombre: edu id: 5sr90165639433959 estado de salud: D edad:20, M1oJX0497025587181=nombre: axel id: M1oJX0497025587181 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:37:13,187 [main] edu.upc.dsa.Covid19ManagerImpl  - {M5WJlIA895767040521=Id_muestraM5WJlIA895767040521 resultado: null comentario: null, LW2CU=Id_muestraLW2CU resultado: null comentario: null}
+INFO    2021-04-28 22:37:13,187 [main] edu.upc.dsa.Covid19ManagerImpl  - muestra procesada
+DEBUG   2021-04-28 22:37:13,187 [main] edu.upc.dsa.Covid19ManagerImpl  - [Id_muestraM5WJlIA895767040521 resultado: null comentario: null]
+DEBUG   2021-04-28 22:37:13,187 [main] edu.upc.dsa.Covid19ManagerImpl  - {5sr90165639433959=nombre: edu id: 5sr90165639433959 estado de salud: D edad:20, M1oJX0497025587181=nombre: axel id: M1oJX0497025587181 estado de salud: A edad:19}
+DEBUG   2021-04-28 22:37:13,187 [main] edu.upc.dsa.Covid19ManagerImpl  - {M5WJlIA895767040521=Id_muestraM5WJlIA895767040521 resultado: null comentario: null, LW2CU=Id_muestraLW2CU resultado: POSITIVO comentario: Beber mucho líquido}
+INFO    2021-04-28 22:38:38,066 [grizzly-http-server-5] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:38:38,067 [grizzly-http-server-5] edu.upc.dsa.Covid19ManagerImpl  - {S5H0313417116=nombre: axel id: S5H0313417116 estado de salud: A edad:19, Kbg91113965=nombre: edu id: Kbg91113965 estado de salud: D edad:20}
+INFO    2021-04-28 22:38:38,067 [grizzly-http-server-5] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:38:38,067 [grizzly-http-server-5] edu.upc.dsa.Covid19ManagerImpl  - {gei620944595896967=nombre: Axel id: gei620944595896967 estado de salud: D edad:17, S5H0313417116=nombre: axel id: S5H0313417116 estado de salud: A edad:19, Kbg91113965=nombre: edu id: Kbg91113965 estado de salud: D edad:20}
+INFO    2021-04-28 22:58:39,446 [grizzly-http-server-0] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 22:58:39,446 [grizzly-http-server-0] edu.upc.dsa.Covid19ManagerImpl  - {ZPn5DUOy41047970=nombre: edu id: ZPn5DUOy41047970 estado de salud: D edad:20, OtM0de4z3687226268=nombre: axel id: OtM0de4z3687226268 estado de salud: A edad:19}
+INFO    2021-04-28 22:58:39,447 [grizzly-http-server-0] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 22:58:39,447 [grizzly-http-server-0] edu.upc.dsa.Covid19ManagerImpl  - {ZPn5DUOy41047970=nombre: edu id: ZPn5DUOy41047970 estado de salud: D edad:20, OtM0de4z3687226268=nombre: axel id: OtM0de4z3687226268 estado de salud: A edad:19, iQnJ_0Ho09989810=nombre: Axel id: iQnJ_0Ho09989810 estado de salud: A edad:10}
+INFO    2021-04-28 23:01:12,613 [grizzly-http-server-6] edu.upc.dsa.Covid19ManagerImpl  - creando persona
+DEBUG   2021-04-28 23:01:12,613 [grizzly-http-server-6] edu.upc.dsa.Covid19ManagerImpl  - {ZPn5DUOy41047970=nombre: edu id: ZPn5DUOy41047970 estado de salud: D edad:20, OtM0de4z3687226268=nombre: axel id: OtM0de4z3687226268 estado de salud: A edad:19, iQnJ_0Ho09989810=nombre: Axel id: iQnJ_0Ho09989810 estado de salud: A edad:10}
+INFO    2021-04-28 23:01:12,614 [grizzly-http-server-6] edu.upc.dsa.Covid19ManagerImpl  - persona creada
+DEBUG   2021-04-28 23:01:12,614 [grizzly-http-server-6] edu.upc.dsa.Covid19ManagerImpl  - {ZPn5DUOy41047970=nombre: edu id: ZPn5DUOy41047970 estado de salud: D edad:20, OtM0de4z3687226268=nombre: axel id: OtM0de4z3687226268 estado de salud: A edad:19, eUTzNYMo512=nombre: Axel id: eUTzNYMo512 estado de salud: A edad:19, iQnJ_0Ho09989810=nombre: Axel id: iQnJ_0Ho09989810 estado de salud: A edad:10}
